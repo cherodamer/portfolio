@@ -61,8 +61,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.2em;
+  font-weight: 500;
   line-height: 1.5;
   color: #212529;
   text-align: left;
@@ -294,10 +294,6 @@ input[type=checkbox] {
   padding: 0;
 }
 
-textarea {
-  overflow: auto;
-  resize: vertical;
-}
 
 fieldset {
   min-width: 0;
@@ -364,7 +360,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #4279b0;
 }
 
 h1, .h1 {
@@ -424,7 +420,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #17497a;
 }
 
 small,
@@ -2095,6 +2091,7 @@ select.form-control:focus::-ms-value {
 select.form-control[size], select.form-control[multiple] {
   height: auto;
 }
+
 
 textarea.form-control {
   height: auto;
@@ -7476,7 +7473,7 @@ button.bg-dark:focus {
 }
 
 .m-0 {
-  margin: 0 !important;
+  margin: 0px;
 }
 
 .mt-0,
@@ -9982,7 +9979,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #01213d;
 }
 
 @media (min-width: 992px) {
@@ -10113,3 +10110,32 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.social-icons{
+  margin: 3rem;
+
+
+}
+
+.contact-form{
+  width: 50%;
+  background-color: #f7fbff;  
+  border-radius: 10px;
+
+
+}
+
+.textarea {
+    overflow: visible;
+    width: 250px;
+    height: auto;
+    margin-left:2em;
+}
+.contact-label{
+margin: 0.5em 2em;
+  
+}
+
+
+
+
