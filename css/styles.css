@@ -10128,8 +10128,8 @@ section.resume-section .resume-section-content {
 .textarea {
     overflow: visible;
     width: 250px;
-    height: auto;
-    margin-left:2em;
+    min-height:40px;
+    
 }
 .contact-label{
 margin: 0.5em 2em;
